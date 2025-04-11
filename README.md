@@ -1,7 +1,7 @@
 #  <img src="https://user-images.githubusercontent.com/61543012/194778582-c5cbf98d-c9d6-461e-9521-d0da68dfe636.png" height="35" width="35" align-items="center" justify-content="center" /> Query-SE
 Query is a search engine built to integrate with your browser of choice (special integrations with the cheers browser) this multiplies the efficiency of your tasks running on the blockchain.
 
-## Search the ENTIRE web in 2023
+## Search the ENTIRE web in 2025
 
 🔎 Clean search engine that works as a chat-bot replacement.
 
