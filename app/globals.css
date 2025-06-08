@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 180 30% 98%;
+    --foreground: 200 50% 15%;
+
+    --card: 180 30% 98%;
+    --card-foreground: 200 50% 15%;
+
+    --popover: 180 30% 98%;
+    --popover-foreground: 200 50% 15%;
+
+    --primary: 30 100% 50%;
+    --primary-foreground: 30 10% 5%;
+
+    --secondary: 180 40% 40%;
+    --secondary-foreground: 180 10% 98%;
+
+    --muted: 180 20% 90%;
+    --muted-foreground: 180 20% 40%;
+
+    --accent: 120 40% 50%;
+    --accent-foreground: 120 10% 98%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 20% 85%;
+    --input: 180 20% 80%;
+    --ring: 30 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 200 50% 10%;
+    --foreground: 180 20% 90%;
+
+    --card: 200 50% 10%;
+    --card-foreground: 180 20% 90%;
+
+    --popover: 200 50% 10%;
+    --popover-foreground: 180 20% 90%;
+
+    --primary: 30 100% 50%;
+    --primary-foreground: 30 10% 5%;
+
+    --secondary: 180 40% 30%;
+    --secondary-foreground: 180 10% 98%;
+
+    --muted: 200 50% 15%;
+    --muted-foreground: 180 20% 60%;
+
+    --accent: 120 40% 30%;
+    --accent-foreground: 120 10% 98%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 50% 20%;
+    --input: 200 50% 25%;
+    --ring: 30 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Earth and Sun Theme Custom Classes */
+.earth-gradient {
+  @apply bg-gradient-to-b from-sky-400 via-earth-300 to-forest-400;
+}
+
+.sun-gradient {
+  @apply bg-gradient-to-b from-sun-300 via-sun-500 to-sun-700;
+}
+
+.earth-sun-gradient {
+  @apply bg-gradient-to-br from-sky-400 via-earth-300 to-sun-500;
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.earth-card {
+  @apply bg-earth-50 border-earth-200 shadow-md;
+}
+
+.sun-card {
+  @apply bg-sun-50 border-sun-200 shadow-md;
+}
